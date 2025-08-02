@@ -1,30 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Interactive Navigation Menu</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <ul class="nav-links">
+        <li><a id="hhome" href="#home">Home</a></li>
+        <li><a id="sservices" href="#services">Services</a></li>
+        <li><a id="aabout" href="#about">About</a></li>
+        <li><a id="ccontact" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
 
-  <nav class="navbar" id="navbar">
-    <ul class="nav-links">
-      <li><a id="hhome" href="#home">Home</a></li>
-      <li><a id="sservices" href="#services">Services</a></li>
-      <li><a id="aabout" href="#about">About</a></li>
-      <li><a id="ccontact" href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+    <!-- Example content to scroll -->
+    <div class="content">
+      <section id="home">
+        <h2>Welcome to Ladakh Tourism</h2>
+        <p>
+          Discover the breathtaking beauty of Ladakh, the land of high passes.
+          Explore majestic mountains, serene monasteries, and vibrant culture.
+          Plan your unforgettable journey with us!
+        </p>
+        <img
+          src="https://img.freepik.com/free-photo/magnetic-hill-mountain-blue-sky-road-way-leh-ladakh-india_1150-11111.jpg"
+          alt="Pangong Lake, Ladakh"
+          style="
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 10px;
+          "
+        />
+      </section>
+      <section id="services">
+        <h2 style="padding-bottom: 50px;">Our Services</h2>
+        <ul>
+          <li>Guided tours to Pangong Lake, Nubra Valley, and Magnetic Hill</li>
+          <li>Adventure activities: Trekking, River Rafting, Biking</li>
+          <li>Hotel and Homestay Bookings</li>
+          <li>Customized Itineraries</li>
+          <li>Local Cuisine Experiences</li>
+        </ul>
+      </section>
+      <section id="about">
+        <h2>About Ladakh</h2>
+        <p>
+          Ladakh, often called the "Land of High Passes," is a region in
+          northern India known for its stunning landscapes, Buddhist
+          monasteries, and unique culture. From the azure waters of Pangong Lake
+          to the sand dunes of Nubra Valley, Ladakh offers a paradise for nature
+          lovers and adventure seekers alike.
+        </p>
+        <p>Best time to visit: May to September</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+          Ready to explore Ladakh? Reach out to us for bookings and inquiries!
+        </p>
+        <ul>
+          <li>
+            Email:
+            <a href="mailto:info@ladakhtourism.com">info@ladakhtourism.com</a>
+          </li>
+          <li>Phone: +91-9876543210</li>
+          <li>Address: Main Bazaar, Leh, Ladakh, India</li>
+        </ul>
+        
+      </section>
+    </div>
 
-  <!-- Example content to scroll -->
-  <div class="content">
-    <section id="home"><h2>Home</h2></section>
-    <section id="services"><h2>Services</h2></section>
-    <section id="about"><h2>About</h2></section>
-    <section id="contact"><h2>Contact</h2></section>
-  </div>
-
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
